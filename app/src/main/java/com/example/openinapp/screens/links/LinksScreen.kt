@@ -218,7 +218,7 @@ fun LinksColumn(viewModel: LinksViewModel= hiltViewModel(),
 }
 
 
-@RequiresApi(Build.VERSION_CODES.O)
+
 @Composable
 fun LinksCardTop(topLinksItem: TopLinksItem, viewModel: LinksViewModel) {
     Column(
@@ -533,12 +533,12 @@ fun Links(viewModel: LinksViewModel= hiltViewModel()) {
 @Composable
 fun Titlebar() {
     Column(modifier= Modifier
-        .height(100.dp)
+        .height(134.dp)
         .fillMaxWidth()
         .background(BlueTopBar),
         ) {
         Row(modifier = Modifier
-            .padding(top =40.dp, start = 16.dp, end = 16.dp),
+            .padding(top =74.dp, start = 16.dp, end = 16.dp),
             horizontalArrangement = Arrangement.Center,
             verticalAlignment = Alignment.CenterVertically) {
             HeadingText()
